@@ -1,0 +1,9 @@
+[package]
+name = "AptosToken"
+version = "1.0.0"
+
+[addresses]
+admin = '0xb3c2b1dd7f957da992c62e563fca0dc4eff32e9cad4cd8bf078dbcc37b4fd0f5'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir="aptos-move/framework/aptos-framework", rev = "39843de859dbcbc6cab01e81dbed5e43da43a0f0" }
